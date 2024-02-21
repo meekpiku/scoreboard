@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.game-table {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 0 50px #FF2E63;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+}
+
+thead {
+    color: #fff;
+}
+
+
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+td {
+	margin: 100px;
+
+}
+
+
+body {
+	background: #252A34;
+	height: 100vh;
+}
+
+.wrapper span {
+	position: fixed;
+	bottom: -180px;
+	height: 50px;
+	width: 50px;
+	z-index: -1;
+	background-color: #252A34;
+	box-shadow: 0 0 50px #35408F, 0 0 100px #35408F, 0 0 150px #35408F, 0 0 200px #35408F;
+	animation: animate 5s linear infinite; 
+}
+
+.wrapper span:nth-child(1) {
+	left: 60px;
+	animation-delay: 0.3s; 
+}
+
+.wrapper span:nth-child(2) {
+	left: 10%;
+	animation-delay: 1.5s; 
+	width: 60px;
+	height: 60px;
+}
+
+.wrapper span:nth-child(3) {
+	left: 20%;
+	animation-delay: 1s; 
+}
+
+.wrapper span:nth-child(4) {
+	left: 30%;
+	animation-delay: 2.5s; 
+	width: 80px;
+	height: 80px;
+}
+
+.wrapper span:nth-child(5) {
+	left: 40%;
+	animation-delay: 0.5s; 
+}
+
+.wrapper span:nth-child(6) {
+	left: 50%;
+	animation-delay: 3.5s; 
+}
+
+.wrapper span:nth-child(7) {
+	left: 60%;
+	animation-delay: 3s; 
+	width: 100px;
+	height: 100px;
+}
+
+.wrapper span:nth-child(8) {
+	left: 70%;
+	animation-delay: 4s; 
+}
+
+.wrapper span:nth-child(9) {
+	left: 80%;
+	animation-delay: 3s; 
+	width: 90px;
+	height: 90px;
+}
+
+.wrapper span:nth-child(10) {
+	left: 90%;
+	animation-delay: 2s; 
+}
+
+.content h2 b {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #fff;
+	font-family: montserrat;
+	font-size: 80px;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		opacity: .7;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+
+.scoreboard {
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+	color: white;
+
+}
